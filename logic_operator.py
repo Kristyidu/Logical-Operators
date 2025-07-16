@@ -5,6 +5,8 @@ print('''****************
 2. Subtraction
 3. Multiplication
 4. Division
+5. Exponential
+6. Floor Division
 **********************'''
 )
 print ("Enter two numbers to add")
@@ -58,4 +60,15 @@ first_number = input("First Number:")
 second_number = input("Second Number:")
 exp = float(first_number) ** float(second_number)
 print(f"{first_number} ** {second_number} = {exp:.2f}")
+
+print("**********************")
+print("Floor Division")
+
+print ("Enter two numbers to get the floor division")
+#prompt a user for a number and store it
+first_number = input("First Number:")
+#prompt the user for number and store it 
+second_number = input("Second Number:")
+floor = float(first_number) // float(second_number)
+print(f"{first_number} // {second_number} = {floor:.2f}")
 
