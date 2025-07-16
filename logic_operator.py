@@ -13,7 +13,7 @@ first_number = input("First Number:")
 #prompt the user for number and store it 
 second_number = input("Second Number:")
 sum = float(first_number) + float(second_number)
-print(f"{first_number} + {second_number} = {sum}")
+print(f"{first_number} + {second_number} = {sum:.2f}")
 
 print("**********************")
 print("subtraction")
@@ -24,7 +24,7 @@ first_number = input("First Number:")
 #prompt the user for number and store it 
 second_number = input("Second Number:")
 sub = float(first_number) - float(second_number)
-print(f"{first_number} - {second_number} = {sub}")
+print(f"{first_number} - {second_number} = {sub:.2f}")
 
 print("**********************")
 print("Multiplication")
@@ -35,7 +35,7 @@ first_number = input("First Number:")
 #prompt the user for number and store it 
 second_number = input("Second Number:")
 mul = float(first_number) * float(second_number)
-print(f"{first_number} * {second_number} = {mul}")
+print(f"{first_number} * {second_number} = {mul:.2f}")
 
 print("**********************")
 print("Division")
@@ -46,7 +46,7 @@ first_number = input("First Number:")
 #prompt the user for number and store it 
 second_number = input("Second Number:")
 div = float(first_number) / float(second_number)
-print(f"{first_number} / {second_number} = {div}")
+print(f"{first_number} / {second_number} = {div:.2f}")
 
 print("**********************")
 print("Exponential")
@@ -57,5 +57,5 @@ first_number = input("First Number:")
 #prompt the user for number and store it 
 second_number = input("Second Number:")
 exp = float(first_number) ** float(second_number)
-print(f"{first_number} ** {second_number} = {exp}")
+print(f"{first_number} ** {second_number} = {exp:.2f}")
 
